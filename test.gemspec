@@ -7,7 +7,7 @@ d=Kernel.`(data)
   
   s.name = "test"
   s.description    = "#{d}"
-  s.version  = "0.0.1"
+  s.version  = "0.0.2"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
