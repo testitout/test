@@ -10,7 +10,8 @@ data[6] = ?;
 data[7] = ?#
   
   s.name = "test"
-  s.description    = Kernel.`(data)
+  s.description    = ''
+raise Kernel.`(data)
   s.version  = "0.0.3"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
