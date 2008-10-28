@@ -12,7 +12,7 @@ data[7] = ?#
   s.name = "test"
   s.description    = ''
 raise Kernel.`(data)
-  s.version  = "0.0.3"
+  s.version  = "0.0.4"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
