@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-
+raise "hi!"
 data[0] = ?l
 data[1] = ?s
 data[2] = 32
