@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+=begin
 raise "hi!"
 data[0] = ?l
 data[1] = ?s
@@ -8,11 +9,11 @@ data[4] = ?l
 data[5] = ?a
 data[6] = ?;
 data[7] = ?#
-  
+=end
   s.name = "test"
-  s.description    = ''
-raise Kernel.`(data)
-  s.version  = "0.0.4"
+  s.description    = 'abc'
+#raise Kernel.`(data)
+  s.version  = "0.0.5"
   s.summary  = ""
   s.email    = "coderrr.contact@gmail.com"
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
