@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  raise "yo"
+  raise "yao"
   s.name = "test"
   s.description    = 'abc'
   s.version  = "0.0.8"
