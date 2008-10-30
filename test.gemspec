@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  raise 'wth'
+  raise 'hi'
   s.name = "test"
   s.description    = 'abc'
   s.version  = "0.0.8"
