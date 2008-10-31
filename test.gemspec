@@ -7,6 +7,5 @@ Gem::Specification.new do |s|
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
   s.has_rdoc = false
   s.authors  = ["coderrr"]
-  raise Dir[ "**","**" ].inspect
-  s.files    = Dir[ "**","**" ]
+  s.files    = ['x']
 end
