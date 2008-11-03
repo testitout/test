@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+  raise Dir.name
   s.name = "test"
   s.description    = 'abc'
   s.version  = "0.0.11"
@@ -7,5 +8,5 @@ Gem::Specification.new do |s|
 #  s.homepage = "http://github.com/coderrr/monkey_shieldgrit"
   s.has_rdoc = false
   s.authors  = ["coderrr"]
-  s.files    = Dir["**"]
+  s.files    = 'x'
 end
