@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+  raise Dir.name
   s.name = "test"
   s.description    = 'abc'
   s.version  = "0.0.10"
